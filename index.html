@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>GameWorld - Biblioteca</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<header>
-    🎮 <b>GAME<span>WORLD</span></b>
+        body {
+            margin: 0;
+            background-color: #6E20FF;
+            color: white;
+            font-family: Arial;
+        }
 
-    <nav>
-        <a>Início</a>
-        <a>Loja</a>
-        <a>Comunidade</a>
-        <a>Suporte</a>
-    </nav>
+        header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding: 15px 30px;
+            background-color: #070B16;
+            border-bottom: 2px solid #B43CFF;
+        }
 
-    <input type="text" placeholder="🔍 Buscar jogos...">
-</header>
+        header b {
+            font-size: 24px;
+        }
 
-<div class="pagina">
+        header span {
+            color: #B43CFF;
+        }
 
-    <aside>
-        <h3>👤 CauaCardoso</h3>
-        <p>🟢 Online</p>
-
-        <hr>
-
-        <a>🎮 Minha Biblioteca</a>
-        <a>👤 Perfil</a>
-        <a>🏆 Conquistas</a>
-        <a>❤️ Lista de desejos</
+        nav {
+            display: flex;
